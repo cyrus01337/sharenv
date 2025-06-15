@@ -1,0 +1,53 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling >= 1.26"]
+
+[project]
+authors = [{ name = "cyrus01337" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: System :: Shells",
+    "Topic :: Text Processing",
+    "Topic :: Utilities",
+    "Typing :: Typed"
+]
+description = "Write/Sync variables between shells"
+license = "MIT"
+license-files = ["LICENSE"]
+name = "sharenv"
+requires-python = ">=3.13"
+version = "1.0.0"
+
+[project.scripts]
+sharenv = "sharenv:main"
+
+[project.urls]
+Homepage = "https://github.com/cyrus01337/sharenv"
+Issues = "https://github.com/cyrus01337/sharenv/issues"
+
+[tool.pyright]
+pythonversion = "^3.13"
+typeCheckingMode = "strict"
+
+[tool.ruff]
+line-length = 125
+target-version = "py313"
+
+[tool.ruff.format]
+line-ending = "lf"
+
+[tool.ruff.lint.isort]
+section-order = [
+  "future",
+  "standard-library",
+  "third-party",
+  "first-party",
+  "local-folder",
+]
