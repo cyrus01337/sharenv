@@ -12,10 +12,10 @@ Keep this in mind if you are to use this **personal** software of mine.
 ### Install
 ```sh
 # with pip
-pip install git+https://github.com/jkbr/httpie.git#egg=sharenv
+pip install git+https://github.com/cyrus01337/sharenv.git#egg=sharenv
 
 # with uv
-uv pip install git+https://github.com/jkbr/httpie.git#egg=sharenv
+uv pip install git+https://github.com/cyrus01337/sharenv.git#egg=sharenv
 ```
 
 ### Usage
