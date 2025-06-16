@@ -16,6 +16,9 @@ pip install git+https://github.com/cyrus01337/sharenv.git#egg=sharenv
 
 ### Usage
 ```sh
+# ~/.bashrc
+# ~/.config/fish/config.fish
+
 # auto-detects current running shell
 eval "$(python .)"
 
