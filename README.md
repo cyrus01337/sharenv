@@ -20,8 +20,8 @@ pip install git+https://github.com/cyrus01337/sharenv.git#egg=sharenv
 # ~/.config/fish/config.fish
 
 # auto-detects current running shell
-eval "$(python .)"
+eval "$(sharenv)"
 
-# you can also manually specify it (only supports bash and fish)
-eval "$(python . --shell fish)"
+# you can also manually specify it
+eval "$(sharenv --shell fish)"
 ```
