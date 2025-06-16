@@ -22,6 +22,6 @@ pip install git+https://github.com/cyrus01337/sharenv.git#egg=sharenv
 # auto-detects current running shell
 eval "$(python .)"
 
-# you can also manually specify it
+# you can also manually specify it (only supports bash and fish)
 eval "$(python . --shell fish)"
 ```
